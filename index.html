@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <title>A Jornada do Tesouro Perdido</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <p>A Jornada ao Tesouro Perdido</p>
+            <button class="btn-proximo" data-proximo="1">Seguir o mapa imediatamente</button>
+            <button class="btn-proximo" data-proximo="2">Pedir ajuda a um amigo para interpretar o mapa </button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Você precisa de um meio de transporte para iniciar a jornada.</p>
+            <button class="btn-proximo" data-proximo="3">Usar um cavalo </button>
+            <button class="btn-proximo" data-proximo="4">Montar um barco e seguir pelo rio</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>O amigo aponta uma anotação misteriosa no mapa.</p>
+            <button class="btn-proximo" data-proximo="5">Ignorar e seguir o caminho original.</button>
+            <button class="btn-proximo" data-proximo="6">Alterar a rota e investigar.</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Uma ponte está destruída no caminho.</p>
+            <button class="btn-proximo" data-proximo="7">Procurar uma rota alternativa</button>
+            <button class="btn-proximo" data-proximo="8">Construir uma travessia improvisada</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="cenario-passo4.png">
+            <p>Piratas abordam seu barco exigindo o mapa.</p>
+            <button class="btn-proximo" data-proximo="9">Entregar uma cópia falsa.</button>
+            <button class="btn-proximo" data-proximo="10">Tentar escapar navegando rapidamente.</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você chega a uma caverna com símbolos antigos.</p>
+            <button class="btn-proximo" data-proximo="11">Decifrar os símbolos.</button>
+            <button class="btn-proximo" data-proximo="7">Ignorar e seguir adiante</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você encontra uma figura misteriosa disposta a ajudar.</p>
+            <button class="btn-proximo" data-proximo="10">Aceitar ajuda</button>
+            <button class="btn-proximo" data-proximo="3">Recusar e seguir sozinho</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Você encontra um baú antigo.</p>
+            <button class="btn-proximo" data-proximo="12">Abrir imediatamente</button>
+            <button class="btn-proximo" data-proximo="8"> Examinar ao redor por armadilhas</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Uma armadilha dispara!</p>
+            <button class="btn-proximo" data-proximo="9"> Desarmar com cuidado </button>
+            <button class="btn-proximo" data-proximo="4">Correr para se proteger</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você encontra uma mensagem indicando um local próximo.</p>
+            <button class="btn-proximo" data-proximo="11">Seguir a pista</button>
+            <button class="btn-proximo" data-proximo="7"> Ignorar e continuar sua busca</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você é cercado por inimigos.</p>
+            <button class="btn-proximo" data-proximo="11">Negociar</button>
+            <button class="btn-proximo" data-proximo="13">Lutar para se livrar</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <p>Você finalmente encontra o tesouro em uma câmara escondida!</p>
+            <button class="btn-proximo" data-proximo="14">Dividir o tesouro com os aliados</button>
+            <button class="btn-proximo" data-proximo="15">Guardar tudo para si</button>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Dentro do bau, tinha uma amardilha assim que foi aberto ela foi acionada matando você.</p>
+        </div>
+
+        <div class="passo" id="passo-13">
+            <p>Foi uma batalha intensa porém você acaba morto.</p>
+        </div>
+
+        <div class="passo" id="passo-14">
+            <p>Todos saem da caverna feliz, e muito ricos.</p>
+        </div>
+
+        <div class="passo" id="passo-15">
+            <p>Depois de sair com todo o tesouro, os seus aliados te dão um golpe e te matam.</p>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
